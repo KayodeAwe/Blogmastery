@@ -12,6 +12,8 @@ import { NgOptimizedImage } from '@angular/common';
 import { DetailsComponent } from './components/details/details.component';
 import { Modal1Component } from './components/modal1/modal1.component';
 import { StatementComponent } from './components/statement/statement.component';
+import { Details2Component } from './components/details2/details2.component';
+import { Modal2Component } from './components/modal2/modal2.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { StatementComponent } from './components/statement/statement.component';
     HopmpageIconsComponent,
     DetailsComponent,
     Modal1Component,
-    StatementComponent
+    StatementComponent,
+    Details2Component,
+    Modal2Component
   ],
   imports: [
     BrowserModule,
